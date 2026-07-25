@@ -50,7 +50,7 @@ These are the non-obvious decisions and bugs encountered while building this, ke
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) (Community edition or Build Tools), for `cl.exe` and `vcvarsall.bat`
 - A prebuilt [raylib](https://www.raylib.com/) distribution for MSVC (headers + `raylib.lib`)
 - [rres](https://github.com/raysan5/rres) (`rres.h` / `rres-raylib.h`) if rebuilding the resource-loading code
-- [rrespacker](https://github.com/raysan5/rres/tree/master/tools/rrespacker), used to build `pong_resources.rres` from the raw image/sound assets
+- [rrespacker](https://raylibtech.itch.io/rrespacker), used to build `pong_resources.rres` from the raw image/sound assets
 
 ## Building
 
