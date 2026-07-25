@@ -1,0 +1,5 @@
+To include an icon in an executable, make the rc file and compile with
+
+rc file.rc
+
+which will output a res file. This only needs to be linked during compilation
